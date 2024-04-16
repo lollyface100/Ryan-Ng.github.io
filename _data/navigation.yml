@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Certificates and Achievements 📜"
+    url: /certs-n-achievements/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Testimonies"
+    url: /testimonies/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "arrangements and compositions 👀"
+    url: /arrs-n-comps/    
     
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - # title: "Blog Posts"
+    # url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  - # title: "CV"
+    # url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  - # title: "Guide"
+    # url: /markdown/
