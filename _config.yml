@@ -201,16 +201,16 @@ kramdown:
 collections:
   certs-n-achievements:
     output: true
-    permalink: /:collection/:certs-n-achievements/
+    permalink: /certs-n-achievements/
   sch-records:
     output: true
-    permalink: /:collection/:sch-records/
+    permalink: /sch-records/
   testimonies:
     output: true
-    permalink: /:collection/:testimonies/
+    permalink: /testimonies/
   arrs-n-comps:
     output: true
-    permalink: /:collection/:arrs-n-comps/
+    permalink: /arrs-n-comps/
 
 
 # Defaults
