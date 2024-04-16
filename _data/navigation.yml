@@ -12,8 +12,8 @@ main:
   - title: "arrangements and compositions 👀"
     url: /arrs-n-comps/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Portfolio"
+    url: /portfolio/
     
   # - title: "CV"
   #   url: /cv/
