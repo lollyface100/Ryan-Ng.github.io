@@ -1,1 +1,0 @@
-arrs n comps
