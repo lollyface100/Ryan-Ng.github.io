@@ -199,18 +199,18 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  certs-n-achievements:
     output: true
-    permalink: /:collection/:path/
-  publications:
+    permalink: /:collection/:certs-n-achievements/
+  sch-records:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
+    permalink: /:collection/:sch-records/
+  testimonies:
     output: true
-    permalink: /:collection/:path/
-  talks:
+    permalink: /:collection/:testimonies/
+  arrs-n-comps:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:arrs-n-comps/
 
 
 # Defaults
