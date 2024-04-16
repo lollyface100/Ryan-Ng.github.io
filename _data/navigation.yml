@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "Certificates and Achievements 📜"
+  - title: "Certificates Achievements 📜"
     url: /certs-n-achievements/
 
-  - title: "Testimonies"
+  -  title: "School Records 📝"
+     url: /sch-records/
+
+  - title: "Testimonies 👨‍🎓"
     url: /testimonies/    
 
   - title: "arrangements and compositions 👀"
     url: /arrs-n-comps/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - # title: "Blog Posts"
-    # url: /year-archive/
+  # - title: "Portfolio"
+  #   url: /portfolio/
     
-  - # title: "CV"
-    # url: /cv/
+  # - title: "CV"
+  #   url: /cv/
     
-  - # title: "Guide"
-    # url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
