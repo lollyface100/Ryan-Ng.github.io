@@ -12,9 +12,9 @@ title                    : "Ryan's Band Journey"
 title_separator          : "-"
 name                     : &name "Ryan Ng"
 description              : &description "personal description"
-url                      : https://lollyface100.github.io/Ryan-Ng.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ryan-ng-hc.github.io/Ryan-Ng.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "/lollyface100.github.io/Ryan-Ng.github.io/"
+repository               : "/ryan-ng-hc.github.io/Ryan-Ng.github.io/"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
