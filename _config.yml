@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ryan's Band Journey"
+title                    : "Ryan's Musical Journey"
 title_separator          : "-"
 name                     : &name "Ryan Ng"
 description              : &description "personal description"
