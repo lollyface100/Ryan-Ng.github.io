@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "arrangements and compositions 👀"
+title: "Arrangements and Compositions 👀"
 permalink: /arrs-n-comps/
 author_profile: true
 ---
