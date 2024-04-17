@@ -5,25 +5,86 @@ permalink: /arrs-n-comps/
 author_profile: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scrolling Timeline</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Your CSS styles here */
+    .timeline-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .timeline {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: auto;
+    }
+
+    .image-and-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .image-and-text img {
+      max-width: 40%;
+    }
+
+    .image-description {
+      max-width: 50%;
+    }
+
+    .fade-in {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <div class="timeline-container">
     <div class="timeline">
       <div class="image-and-text">
         <img src="../images/pfp6.jpg" alt="pfp6">
-        <div class="image-description">this is a pfp6</div>
+        <div class="image-description">this is pfp6</div>
       </div>
       <!-- Add more image-and-text divs for additional images -->
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    // JavaScript code here
+    document.addEventListener("DOMContentLoaded", function() {
+      var images = document.querySelectorAll(".image-and-text");
+
+      function checkPosition() {
+        for (var i = 0; i < images.length; i++) {
+          var image = images[i];
+          var positionFromTop = image.getBoundingClientRect().top;
+
+          if (positionFromTop - window.innerHeight < 0) {
+            image.classList.add("fade-in");
+          } else {
+            image.classList.remove("fade-in");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", checkPosition);
+      checkPosition(); // Call the function initially to check for images in view on page load
+    });
+  </script>
 </body>
 </html>
