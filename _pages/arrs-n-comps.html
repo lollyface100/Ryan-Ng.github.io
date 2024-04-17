@@ -12,12 +12,12 @@ author_profile: true
   <title>Scrolling Timeline</title>
   <style>
     /* Your CSS styles here */
-    .timeline-container {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-    }
+   .timeline-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Add a height */
+  overflow: hidden;
+}
 
     .timeline {
       position: absolute;
@@ -70,6 +70,7 @@ author_profile: true
       var images = document.querySelectorAll(".image-and-text");
 
       function checkPosition() {
+         console.log("Scroll event triggered!"); // Add this line
         for (var i = 0; i < images.length; i++) {
           var image = images[i];
           var positionFromTop = image.getBoundingClientRect().top;
