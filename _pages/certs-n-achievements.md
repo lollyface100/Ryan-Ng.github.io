@@ -5,4 +5,4 @@ permalink: /certs-n-achievements/
 author_profile: true
 ---
 
-![test](/Ryan-Ng.github.io/images/pfp1.jpg)
+![test](/images/pfp1.jpg)
