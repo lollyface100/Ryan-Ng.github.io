@@ -4,22 +4,23 @@ title: "Certificates and Achievements 📜"
 permalink: /certs-n-achievements/
 author_profile: true
 ---
-1
+3
 
 <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
 
-<div id="parallax">
+<div id="pan">
     <img src="../images/pfp1.jpg" alt="Test">
 </div>
 
 <script>
-    document.getElementById('parallax').animate(
-        { transform: ['translateY(0)', 'translateY(100px)']},
-        { fill: 'both',
-          timeline: new ScrollTimeline({
-            source: document.documentElement,
-          }),
-          rangeStart: new CSSUnitValue(0, 'px'),
-          rangeEnd: new CSSUnitValue(200, 'px'),
-        });
+function animatePan() {
+  let container = $('pan');
+  $('pan').animate({
+      backgroundPosition: ['left center', 'right center']}, {
+      fill: 'both',
+      timeline: new ViewTimeline({ subject: container }),
+      rangeStart: { rangeName: 'contain', offset: CSS.percent(0) },
+      rangeEnd: { rangeName: 'contain', offset: CSS.percent(100) },
+  });
+}
 </script>
